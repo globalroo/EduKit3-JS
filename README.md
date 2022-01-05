@@ -4,7 +4,7 @@ A Javascript take on the CamJam EduKit 3.
 
 ## Install the dependencies
 
-It should run ok with Node version 14+ of Node.
+It should run ok with Node version 14+.
 
 https://nodejs.org/
 
