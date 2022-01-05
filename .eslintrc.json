@@ -1,0 +1,48 @@
+{
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+	},
+	"globals": {
+		"__dirname": false,
+		"afterEach": false,
+		"beforeEach": false,
+		"describe": false,
+		"document": false,
+		"expect": false,
+		"it": false,
+		"jest": false,
+		"module": false,
+		"process": false,
+		"require": false,
+		"test": false
+	},
+	"env": {
+		"browser": true,
+        "es6": true,
+		"node": true
+	},
+	"extends": "eslint:recommended",
+    "rules": {
+		"arrow-parens": "error",
+		"arrow-spacing": "error",
+		"brace-style": [2,"1tbs"],
+		"camelcase": 2,
+		"indent": ["error", "tab"],
+		"no-constant-condition": 2,
+		"no-control-regex": 2,
+		"no-duplicate-case": 2,
+		"no-empty-character-class": 2,
+		"no-ex-assign": 2,
+		"no-extra-boolean-cast": 2,
+		"no-extra-semi": 2,
+		"no-irregular-whitespace": 2,
+		"no-multi-spaces": 2,
+		"no-sparse-arrays": 2,
+		"no-unexpected-multiline": 2,
+		"no-unused-vars": ["error", { "varsIgnorePattern": "__" }],
+		"object-literal-sort-keys": 0,
+		"quotes": ["error","double"],
+		"valid-typeof": 2
+	}
+}

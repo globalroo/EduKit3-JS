@@ -1,20 +1,21 @@
 {
   "name": "camjamjs",
-  "version": "1.0.0",
-  "main": "09-avoidance.js",
+  "version": "0.0.1",
+  "main": "CamJam Edukit 3 - Javascript",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "eventemitter2": "^6.4.3",
+    "command-line-args": "^5.2.0",
+    "eventemitter2": "^6.4.5",
     "node-hid": "^2.1.1",
-    "pigpio": "^3.2.4",
-    "rpio": "^2.2.0"
+    "pigpio": "^3.3.1"
   },
   "devDependencies": {
+    "eslint": "^8.6.0",
     "prettier": "^2.2.1"
   },
-  "description": ""
+  "description": "CamJam Edukit 3 - Javascript"
 }
