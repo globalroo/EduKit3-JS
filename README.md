@@ -1,4 +1,4 @@
-# EdutKit3-JS CamJam Edukit 3 JS
+# CamJam EduKit3-JS CamJam Edukit 3 JS
 
 A Javascript take on the CamJam EduKit 3.
 
