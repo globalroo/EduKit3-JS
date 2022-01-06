@@ -2,6 +2,9 @@
 
 A Javascript take on the CamJam EduKit 3.
 
+- You can get the kit here: https://thepihut.com/products/camjam-edukit-3-robotics
+- If you have a 3D printer you can print a chassis from various models on https://www.thingiverse.com. I used this one: https://www.thingiverse.com/thing:2353479
+
 ## Install the dependencies
 
 It should run ok with Node version 14+.
