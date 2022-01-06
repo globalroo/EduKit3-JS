@@ -6,6 +6,7 @@
 /********************************************************************************/
 
 const Gpio = require("pigpio").Gpio
+const wait = require('util').promisify(setTimeout)
 
 const DIRECTION = {
 	LEFT: 0,
@@ -115,5 +116,6 @@ module.exports = {
 	spinRight,
 	stopMotors,
 	turnLeft,
-	turnRight
+	turnRight,
+	wait
 }
