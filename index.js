@@ -1,11 +1,12 @@
 const commandLineArgs = require("command-line-args")
 
 const {
+	driveBackward,
 	driveForward,
+	stopMotors,
 	turnLeft,
 	turnRight,
-	stopMotors,
-	driveBackward
+	wait,
 } = require("./src/motors")
 
 const commandLineOptions = [
@@ -25,12 +26,16 @@ if (userArgs.testDrive) {
 	;(async () => {
 		await driveForward()
 		await turnLeft()
+		await wait(1000) //ms
 		await driveForward()
 		await turnLeft()
+		await wait(1000) //ms
 		await driveForward()
 		await turnLeft()
+		await wait(1000) //ms
 		await driveForward()
 		await turnLeft()
+		await wait(1000) //ms
 		await turnRight()
 		await driveBackward()
 		stopMotors()
